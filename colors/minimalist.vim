@@ -46,7 +46,7 @@ hi Number           ctermfg=173     ctermbg=NONE    cterm=NONE      guifg=#D7875
 hi Operator         ctermfg=80      ctermbg=NONE    cterm=NONE      guifg=#5FD7D7       guibg=NONE      gui=NONE
 hi Pmenu            ctermfg=NONE    ctermbg=NONE    cterm=NONE      guifg=NONE          guibg=NONE      gui=NONE
 hi PmenuSel         ctermfg=NONE    ctermbg=59      cterm=NONE      guifg=NONE          guibg=#5F5F5F   gui=NONE
-hi PreProc          ctermfg=231     ctermbg=NONE    cterm=NONE      guifg=#FFFFFF       guibg=NONE      gui=NONE
+hi PreProc          ctermfg=140     ctermbg=NONE    cterm=NONE      guifg=#AF87D7       guibg=NONE      gui=NONE
 hi Repeat           ctermfg=140     ctermbg=NONE    cterm=NONE      guifg=#AF87D7       guibg=NONE      gui=NONE
 hi Search           ctermfg=NONE    ctermbg=NONE    cterm=underline guifg=NONE          guibg=NONE      gui=underline
 hi SignColumn       ctermfg=NONE    ctermbg=237     cterm=NONE      guifg=NONE          guibg=#3A3A3A   gui=NONE
