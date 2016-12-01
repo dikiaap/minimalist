@@ -52,9 +52,9 @@ At this time `minimalist` is looks beautiful & focused on:
 ## Links
 
 [GitHub](https://github.com/dikiaap/minimalist) ·
-[Vim.org](#) ·
+[Vim.org](http://www.vim.org/scripts/script.php?script_id=5490) ·
 [Vim Awesome](#) ·
-[dotshare.it](#)
+[DotShare.it](http://dotshare.it/dots/1397/)
 
 ## License
 
