@@ -3,7 +3,7 @@
 </p>
 
 # Minimalist
-Minimalist is a Material Theme Darker for vim & inspired by 
+Minimalist is a Material Colorscheme Darker for vim & inspired by 
 [Material Theme](https://github.com/equinusocio/material-theme).
 
 ## Installation
@@ -38,7 +38,7 @@ Restart your vim.
 
 ## Support
 
-As you know, color scheme in vim by default supports many programming languages.
+As you know, colorscheme in vim by default supports many programming languages.
 At this time `minimalist` is looks beautiful & focused on:
 
 * HTML
