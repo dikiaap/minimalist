@@ -1,4 +1,4 @@
-" Minimalist - A Material Theme Darker
+" Minimalist - A Material Colorscheme Darker
 "
 " Author:       Diki Andriansyah <diki1aap@gmail.com>
 " Repository:   https://github.com/dikiaap/minimalist
