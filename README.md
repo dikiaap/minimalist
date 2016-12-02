@@ -3,8 +3,8 @@
 </p>
 
 # Minimalist
-Minimalist is a Material Theme Darker for vim & inspired by Material Design 
-and [Material Theme](https://github.com/equinusocio/material-theme).
+Minimalist is a Material Theme Darker for vim & inspired by 
+[Material Theme](https://github.com/equinusocio/material-theme).
 
 ## Installation
 
