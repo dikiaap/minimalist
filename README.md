@@ -3,14 +3,15 @@
 </p>
 
 # Minimalist
-Minimalist is a Material Theme Darker for vim inspired by Material Design 
+Minimalist is a Material Theme Darker for vim & inspired by Material Design 
 and [Material Theme](https://github.com/equinusocio/material-theme).
 
 ## Installation
 
 To install this colorscheme, you can use one of the following ways:
 
-- Use [Vundle](https://github.com/VundleVim/Vundle.vim#quick-start) by adding to your `.vimrc` Vundle plugin section:
+- Use [Vundle](https://github.com/VundleVim/Vundle.vim#quick-start) by adding 
+to your `.vimrc` Vundle plugin section:
 
         Plugin 'dikiaap/minimalist'
 
