@@ -19,7 +19,7 @@ to your `.vimrc` Vundle plugin section:
 
 OR
 
-- Use [Panthogen](#):
+- Use [Pathogen](https://github.com/tpope/vim-pathogen#installation):
 
     Run the following in a terminal:   
 
