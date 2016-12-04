@@ -126,3 +126,6 @@ hi cInclude             ctermfg=140     ctermbg=NONE    cterm=NONE      guifg=#A
 hi cOperator            ctermfg=74      ctermbg=NONE    cterm=NONE      guifg=#5FAFD7       guibg=NONE      gui=NONE
 hi shFunction           ctermfg=74      ctermbg=NONE    cterm=NONE      guifg=#5FAFD7       guibg=NONE      gui=NONE " Shell
 hi shOperator           ctermfg=80      ctermbg=NONE    cterm=NONE      guifg=#5FD7D7       guibg=NONE      gui=NONE
+hi sassClass            ctermfg=215     ctermbg=NONE    cterm=NONE      guifg=#FFAF5F       guibg=NONE      gui=NONE " Sass
+hi sassFunction         ctermfg=231     ctermbg=NONE    cterm=NONE      guifg=#FFFFFF       guibg=NONE      gui=NONE
+hi sassVariable         ctermfg=173     ctermbg=NONE    cterm=NONE      guifg=#D7875F       guibg=NONE      gui=NONE
