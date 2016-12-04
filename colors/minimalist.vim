@@ -139,3 +139,8 @@ hi shVariable           ctermfg=231     ctermbg=NONE    cterm=NONE      guifg=#F
 hi sassClass            ctermfg=215     ctermbg=NONE    cterm=NONE      guifg=#FFAF5F       guibg=NONE      gui=NONE " Sass
 hi sassFunction         ctermfg=231     ctermbg=NONE    cterm=NONE      guifg=#FFFFFF       guibg=NONE      gui=NONE
 hi sassVariable         ctermfg=173     ctermbg=NONE    cterm=NONE      guifg=#D7875F       guibg=NONE      gui=NONE
+hi xmlAttrib            ctermfg=167     ctermbg=NONE    cterm=NONE      guifg=#D75F5F       guibg=NONE      gui=NONE " XML
+hi xmlEndTag            ctermfg=80      ctermbg=NONE    cterm=NONE      guifg=#5FD7D7       guibg=NONE      gui=NONE
+hi xmlEqual             ctermfg=80      ctermbg=NONE    cterm=NONE      guifg=#5FD7D7       guibg=NONE      gui=NONE
+hi xmlTag               ctermfg=80      ctermbg=NONE    cterm=NONE      guifg=#5FD7D7       guibg=NONE      gui=NONE
+hi xmlTagName           ctermfg=167     ctermbg=NONE    cterm=NONE      guifg=#D75F5F       guibg=NONE      gui=NONE
