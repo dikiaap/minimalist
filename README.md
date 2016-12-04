@@ -49,6 +49,7 @@ At this time `minimalist` is looks beautiful & focused on:
 * Ruby
 * C++
 * Shell
+* Sass
 
 ## Links
 
