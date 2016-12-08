@@ -50,6 +50,7 @@ At this time `minimalist` is looks beautiful & focused on:
 * C++
 * Shell
 * Sass
+* Markdown
 
 ## Links
 
