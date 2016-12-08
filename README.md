@@ -41,16 +41,17 @@ Restart your vim.
 As you know, colorscheme in vim by default supports many programming languages.
 At this time `minimalist` is looks beautiful & focused on:
 
-* HTML
-* CSS
-* PHP
+* C++
+* CSS/CSS3
+* HTML/HTML5
 * JavaScript
+* Markdown
+* PHP
 * Python
 * Ruby
-* C++
-* Shell
 * Sass
-* Markdown
+* Shell
+* XML
 
 ## Links
 
