@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="http://i.imgur.com/JrZKwfY.png" alt="Minimalist on HTML">
+    <img src="http://i.imgur.com/laipfSy.png" alt="Minimalist on HTML">
 </p>
 
 # Minimalist
@@ -61,7 +61,6 @@ At this time `minimalist` is looks beautiful & focused on:
 
 [GitHub](https://github.com/dikiaap/minimalist) ·
 [Vim.org](http://www.vim.org/scripts/script.php?script_id=5490) ·
-[Vim Awesome](#) ·
 [DotShare.it](http://dotshare.it/dots/1397/)
 
 ## License
