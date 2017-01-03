@@ -2,7 +2,7 @@
 "
 " Author:       Diki Andriansyah <diki1aap@gmail.com>
 " Repository:   https://github.com/dikiaap/minimalist
-" Version:      1.1
+" Version:      1.2
 " License:      MIT
 
 set background=dark

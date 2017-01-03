@@ -2,7 +2,7 @@
 "
 " Author:       Diki Andriansyah <diki1aap@gmail.com>
 " Repository:   https://github.com/dikiaap/minimalist
-" Version:      1.1
+" Version:      1.2
 " License:      MIT
 
 " Normal Mode
@@ -35,12 +35,30 @@ let g:airline#themes#minimalist#palette.visual  = airline#themes#generate_color_
 let g:airline#themes#minimalist#palette.replace = airline#themes#generate_color_map(s:R1, s:R2, s:R3)
 let g:airline#themes#minimalist#palette.inactive = airline#themes#generate_color_map(s:IA, s:IA, s:IA)
 
+" Warning Mode
+let s:WI = [ '#1C1C1C' , '#FFAF5F' , 234 , 215 , '' ]
+let g:airline#themes#minimalist#palette.normal.airline_warning = [
+        \ s:WI[0], s:WI[1], s:WI[2], s:WI[3]
+        \ ]
+let g:airline#themes#minimalist#palette.insert.airline_warning  = g:airline#themes#minimalist#palette.normal.airline_warning
+let g:airline#themes#minimalist#palette.visual.airline_warning  = g:airline#themes#minimalist#palette.normal.airline_warning
+let g:airline#themes#minimalist#palette.replace.airline_warning = g:airline#themes#minimalist#palette.normal.airline_warning
+
+" Error Mode
+let s:ER = [ '#1C1C1C' , '#D75F5F' , 234 , 167 , '' ]
+let g:airline#themes#minimalist#palette.normal.airline_error = [
+        \ s:ER[0], s:ER[1], s:ER[2], s:ER[3]
+        \ ]
+let g:airline#themes#minimalist#palette.insert.airline_error    = g:airline#themes#minimalist#palette.normal.airline_error
+let g:airline#themes#minimalist#palette.visual.airline_error    = g:airline#themes#minimalist#palette.normal.airline_error
+let g:airline#themes#minimalist#palette.replace.airline_error   = g:airline#themes#minimalist#palette.normal.airline_error
+
 " CtrlP
 if !get(g:, 'loaded_ctrlp', 0)
   finish
 endif
 
 let g:airline#themes#minimalist#palette.ctrlp = airline#extensions#ctrlp#generate_color_map(
-      \ [ '#E4E4E4' , '#262626' , 254 , 235 , ''     ] ,
-      \ [ '#E4E4E4' , '#4E4E4E' , 254 , 239 , ''     ] ,
-      \ [ '#585858' , '#E4E4E4' , 240 , 254 , 'bold' ] )
+        \ [ '#E4E4E4' , '#262626' , 254 , 235 , ''     ] ,
+        \ [ '#E4E4E4' , '#4E4E4E' , 254 , 239 , ''     ] ,
+        \ [ '#585858' , '#E4E4E4' , 240 , 254 , 'bold' ] )
