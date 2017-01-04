@@ -30,15 +30,19 @@ OR
 
 After finishing installation, put this code to your `.vimrc`:
 
-    set t_Co=256
-    syntax on
-    colorscheme minimalist
+```viml
+set t_Co=256
+syntax on
+colorscheme minimalist
+```
 
 This colorscheme also built-in with airline theme. If you wanna use:
 
-    let g:airline_theme='minimalist'
-    let g:airline_powerline_fonts = 1
-    let g:airline#extensions#tabline#enabled = 1
+```viml
+let g:airline_theme='minimalist'
+let g:airline_powerline_fonts = 1
+let g:airline#extensions#tabline#enabled = 1
+```
 
 ## Support
 
