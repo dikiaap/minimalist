@@ -59,11 +59,9 @@ let g:airline#themes#minimalist#palette.accents = {
         \ }
 
 " CtrlP
-if !get(g:, 'loaded_ctrlp', 0)
-    finish
+if get(g:, 'loaded_ctrlp', 0)
+    let g:airline#themes#minimalist#palette.ctrlp = airline#extensions#ctrlp#generate_color_map(
+            \ [ '#E4E4E4' , '#262626' , 254 , 235 , ''     ],
+            \ [ '#E4E4E4' , '#4E4E4E' , 254 , 239 , ''     ],
+            \ [ '#585858' , '#E4E4E4' , 240 , 254 , 'bold' ])
 endif
-
-let g:airline#themes#minimalist#palette.ctrlp = airline#extensions#ctrlp#generate_color_map(
-        \ [ '#E4E4E4' , '#262626' , 254 , 235 , ''     ] ,
-        \ [ '#E4E4E4' , '#4E4E4E' , 254 , 239 , ''     ] ,
-        \ [ '#585858' , '#E4E4E4' , 240 , 254 , 'bold' ] )
