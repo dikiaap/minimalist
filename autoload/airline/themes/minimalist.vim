@@ -53,9 +53,14 @@ let g:airline#themes#minimalist#palette.insert.airline_error    = g:airline#them
 let g:airline#themes#minimalist#palette.visual.airline_error    = g:airline#themes#minimalist#palette.normal.airline_error
 let g:airline#themes#minimalist#palette.replace.airline_error   = g:airline#themes#minimalist#palette.normal.airline_error
 
+" Accents
+let g:airline#themes#minimalist#palette.accents = {
+        \ 'red': [ '#D75F5F' , '' , 167 , '' ],
+        \ }
+
 " CtrlP
 if !get(g:, 'loaded_ctrlp', 0)
-  finish
+    finish
 endif
 
 let g:airline#themes#minimalist#palette.ctrlp = airline#extensions#ctrlp#generate_color_map(
