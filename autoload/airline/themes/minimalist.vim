@@ -55,7 +55,7 @@ let g:airline#themes#minimalist#palette.replace.airline_error   = g:airline#them
 
 " Accents
 let g:airline#themes#minimalist#palette.accents = {
-        \ 'red': [ '#D75F5F' , '' , 167 , '' ],
+        \ 'red': [ '#D75F5F' , '' , 167 , '' ]
         \ }
 
 " CtrlP
