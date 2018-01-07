@@ -19,6 +19,15 @@ to your `.vimrc` Vundle plugin section:
 
 OR
 
+- Use [vim-plug](https://github.com/junegunn/vim-plug#installation) by adding 
+to your `.vimrc` vim-plug section:
+
+        Plug 'dikiaap/minimalist'
+
+    Then run `:PlugInstall`.
+
+OR
+
 - Use [Pathogen](https://github.com/tpope/vim-pathogen#installation):
 
     Run the following in a terminal:   
@@ -65,7 +74,7 @@ At this time `minimalist` is looks beautiful & focused on:
 
 [GitHub](https://github.com/dikiaap/minimalist) ·
 [Vim.org](http://www.vim.org/scripts/script.php?script_id=5490) ·
-[Vim Awesome](http://vimawesome.com/plugin/minimalist-vim) ·
+[Vim Awesome](https://vimawesome.com/plugin/minimalist-vim) ·
 [DotShare.it](http://dotshare.it/dots/1397/)
 
 ## License
