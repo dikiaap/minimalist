@@ -3,14 +3,14 @@
 </p>
 
 # Minimalist
-Minimalist is a Material Colorscheme Darker for Vim & inspired by 
+Minimalist is a Material Color Scheme Darker for Vim & inspired by
 [Material Theme](https://github.com/equinusocio/material-theme).
 
 ## Installation
 
-To install this colorscheme, you can use one of the following ways:
+To install this color scheme, you can use one of the following ways:
 
-- Use [Vundle](https://github.com/VundleVim/Vundle.vim#quick-start) by adding 
+- Use [Vundle](https://github.com/VundleVim/Vundle.vim#quick-start) by adding
 to your `.vimrc` Vundle plugin section:
 
         Plugin 'dikiaap/minimalist'
@@ -19,7 +19,7 @@ to your `.vimrc` Vundle plugin section:
 
 OR
 
-- Use [vim-plug](https://github.com/junegunn/vim-plug#installation) by adding 
+- Use [vim-plug](https://github.com/junegunn/vim-plug#installation) by adding
 to your `.vimrc` vim-plug section:
 
         Plug 'dikiaap/minimalist'
@@ -30,7 +30,7 @@ OR
 
 - Use [Pathogen](https://github.com/tpope/vim-pathogen#installation):
 
-    Run the following in a terminal:   
+    Run the following in a terminal:
 
         cd ~/.vim/bundle
         git clone https://github.com/dikiaap/minimalist
@@ -45,7 +45,7 @@ syntax on
 colorscheme minimalist
 ```
 
-This colorscheme also built-in with airline theme. If you wanna use:
+This color scheme also built-in with airline theme. If you wanna use:
 
 ```viml
 let g:airline_theme='minimalist'
@@ -55,7 +55,7 @@ let g:airline#extensions#tabline#enabled = 1
 
 ## Support
 
-As you know, colorscheme in vim by default supports many programming languages.
+As you know, color scheme in vim by default supports many programming languages.
 At this time `minimalist` is looks beautiful & focused on:
 
 * C++
@@ -69,6 +69,9 @@ At this time `minimalist` is looks beautiful & focused on:
 * Sass
 * Shell
 * XML
+
+If you need more syntax highlighting, you can use
+[vim-polyglot](https://github.com/sheerun/vim-polyglot).
 
 ## Links
 
