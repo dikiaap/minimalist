@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="http://i.imgur.com/laipfSy.png" alt="Minimalist on HTML">
+    <img src="https://i.imgur.com/wXBrfyv.png" alt="Minimalist on HTML">
 </p>
 
 # Minimalist
