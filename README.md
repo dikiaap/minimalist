@@ -32,8 +32,7 @@ OR
 
     Run the following in a terminal:
 
-        cd ~/.vim/bundle
-        git clone https://github.com/dikiaap/minimalist
+        git clone https://github.com/dikiaap/minimalist ~/.vim/bundle
 
 ## Usage
 
