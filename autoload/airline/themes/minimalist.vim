@@ -12,7 +12,7 @@ let s:theme = 'minimalist'
 let s:want_showmod = get(g:, 'airline_minimalist_showmod', 0)
 
 function! airline#themes#{s:theme}#refresh()
-    if &background == "dark"
+    if &background == 'dark'
         " Normal
         let N1 = [ '#E4E4E4', '#3A3A3A', 254, 237 ]
         let N2 = [ '#E4E4E4', '#4E4E4E', 254, 239 ]
@@ -48,7 +48,6 @@ function! airline#themes#{s:theme}#refresh()
     " Reverse
     let NR = [ N2[1], N2[0], N2[3], N2[2], 'bold' ]
 
-
     let palette = {}
 
     let palette.normal = airline#themes#generate_color_map(N1, N2, N3)
@@ -66,9 +65,7 @@ function! airline#themes#{s:theme}#refresh()
     endif
 
     " Accents
-    let palette.accents = {
-                \ 'red': [ ER[1], '', ER[3], '' ]
-                \ }
+    let palette.accents = { 'red': [ ER[1], '', ER[3], '' ] }
 
     " CtrlP
     if get(g:, 'loaded_ctrlp', 0)
