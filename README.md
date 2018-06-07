@@ -43,7 +43,6 @@ After finishing installation, put this code to your `.vimrc`:
 set t_Co=256
 syntax on
 colorscheme minimalist
-set background=dark
 ```
 
 This color scheme also built-in with airline theme. If you wanna use:
